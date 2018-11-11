@@ -31,7 +31,7 @@ display_version() {
 }
 
 display_help() {
-    $ECHO_BIN "Usage: $0 [option...] {--help|--post-hook|--pre-hook|--verbose|--version}"
+    $ECHO_BIN "Usage: $0 [option...] {--help|--post-hook|--pre-hook|--verbose|--version|--compare}"
     $ECHO_BIN ""
     $ECHO_BIN "   -h, --help              Display this help message. (don't shit sherlock :o)"
     $ECHO_BIN "   -v, --verbose           Run in verbose mode (for debug purposes), it means that he will put output to screen and log file."
